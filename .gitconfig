@@ -1,0 +1,18 @@
+[alias]
+	aa = add --all
+	ap = add --patch
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	st = status
+[rebase]
+	autosquash = true
+[push]
+	default = current
+[user]
+	name = Brandon Menc
+[core]
+	excludesfile = ~/.gitignore
+[credential]
+	helper = osxkeychain
+[include]
+	path = ~/.gitconfig.local
+
