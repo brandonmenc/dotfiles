@@ -1,4 +1,6 @@
 export ZSH=$HOME/.oh-my-zsh
+export ZSH_CUSTOM=$HOME/.zsh/custom
+
 ZSH_THEME="brm-light"
 
 fpath=($fpath $HOME/.zsh/func)
