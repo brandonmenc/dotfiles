@@ -40,7 +40,7 @@ PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
 # other stuff
 unalias gm
-stty erase ^H
+#stty erase ^H
 bindkey -e
 
 # history search
