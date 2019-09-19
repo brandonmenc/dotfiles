@@ -3,7 +3,13 @@ export ZSH_CUSTOM=$HOME/.zsh/custom
 
 ZSH_THEME="brm-light"
 
-fpath=($fpath $HOME/.zsh/func)
+HOMEBREW_PATH=$(brew --prefix)
+
+fpath=(
+  $HOME/.zsh/func
+  $HOMEBREW_PATH/share/zsh/site-functions
+  $fpath
+)
 
 plugins=(
   git
@@ -43,7 +49,7 @@ bindkey "^[[B" history-beginning-search-forward
 
 alias sudo='sudo '
 
-for file in $HOME/.zsh/*.(sh|zsh); do
-  source "$file"
+for f in $HOME/.zsh/*.(sh|zsh); do
+  source $f
 done
 
