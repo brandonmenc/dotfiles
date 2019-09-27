@@ -13,8 +13,12 @@ fpath=(
 
 plugins=(
   git
+  golang
+  kubectl
   mix
   docker
+  docker-compose
+  docker-machine
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -42,6 +46,9 @@ PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 unalias gm
 #stty erase ^H
 bindkey -e
+
+# other aliases
+alias kc=kubectl
 
 # history search
 bindkey "^[[A" history-beginning-search-backward
