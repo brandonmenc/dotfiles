@@ -49,6 +49,7 @@ bindkey -e
 
 # other aliases
 alias kc=kubectl
+alias dc=docker-compose
 
 # history search
 bindkey "^[[A" history-beginning-search-backward
