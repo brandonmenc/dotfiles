@@ -1,6 +1,8 @@
 brew "ack"
 brew "asdf"
+brew "aws-iam-authenticator"
 brew "git-secrets"
+brew "goaccess"
 brew "httpie"
 brew "hugo"
 brew "jq"
@@ -22,3 +24,4 @@ cask "datagrip"
 cask "goland"
 cask "intellij-idea"
 cask "rubymine"
+
