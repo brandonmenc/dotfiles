@@ -27,7 +27,10 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
-alias ls='CLICOLOR_FORCE=1 ls -G'
+alias ls='LSCOLORS="exfxcxdxbxegedabagacad" ls -FGh'
+alias lls='/bin/ls'
+
+alias du='du -h'
 
 # count files
 alias nf='ls -1 | wc -l'
