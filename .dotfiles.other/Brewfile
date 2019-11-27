@@ -20,6 +20,7 @@ cask "dash"
 cask "iterm2"
 cask "prefs-editor"
 cask "rowanj-gitx"
+cask "sloth"
 
 cask "datagrip"
 cask "goland"
