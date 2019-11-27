@@ -368,8 +368,8 @@
   },
   "Window Type" : 0,
   "Allow Title Reporting" : false,
-  "Has Hotkey" : true,
   "Use Bright Bold" : true,
+  "Has Hotkey" : true,
   "HotKey Modifier Activation" : 0,
   "Cursor Text Color" : {
     "Red Component" : 0.99999600648880005,
@@ -498,23 +498,17 @@
   ],
   "Visual Bell" : false,
   "ASCII Ligatures" : false,
+  "Custom Directory" : "No",
   "Ansi 5 Color" : {
     "Red Component" : 0.32156863808631897,
     "Color Space" : "sRGB",
     "Blue Component" : 0.47450980544090271,
     "Alpha Component" : 1,
     "Green Component" : 0.23529411852359772
-  },
-  "Custom Directory" : "No"
+  }
 },
 {
-  "Ansi 5 Color" : {
-    "Red Component" : 0.32156862745098042,
-    "Color Space" : "sRGB",
-    "Blue Component" : 0.47450980392156861,
-    "Alpha Component" : 1,
-    "Green Component" : 0.23529411764705882
-  },
+  "Custom Directory" : "No",
   "Working Directory" : "\/Users\/brm",
   "Prompt Before Closing 2" : 0,
   "Dynamic Profile Filename" : "\/Users\/brandonm\/Library\/Application Support\/iTerm2\/DynamicProfiles\/brm.json",
@@ -996,8 +990,14 @@
 
   ],
   "Visual Bell" : false,
-  "Custom Directory" : "No",
   "ASCII Ligatures" : false,
+  "Ansi 5 Color" : {
+    "Red Component" : 0.32156862745098042,
+    "Color Space" : "sRGB",
+    "Blue Component" : 0.47450980392156861,
+    "Alpha Component" : 1,
+    "Green Component" : 0.23529411764705882
+  },
   "Set Local Environment Vars" : true
 }
 ]
