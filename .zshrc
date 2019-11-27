@@ -60,6 +60,8 @@ bindkey "^[[B" history-beginning-search-forward
 
 alias sudo='sudo '
 
+alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
+
 for f in $HOME/.zsh/*.(sh|zsh); do
   source $f
 done
