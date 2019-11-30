@@ -1,7 +1,10 @@
 brew "ack"
 brew "asdf"
+brew "aws-iam-authenticator"
 brew "git-secrets"
+brew "goaccess"
 brew "httpie"
+brew "httpstat"
 brew "hugo"
 brew "jq"
 brew "loc"
@@ -15,9 +18,12 @@ brew "zsh"
 
 cask "dash"
 cask "iterm2"
+cask "prefs-editor"
 cask "rowanj-gitx"
+cask "sloth"
 
 cask "datagrip"
 cask "goland"
 cask "intellij-idea"
 cask "rubymine"
+

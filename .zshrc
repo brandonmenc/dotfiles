@@ -13,8 +13,12 @@ fpath=(
 
 plugins=(
   git
+  golang
+  kubectl
   mix
   docker
+  docker-compose
+  docker-machine
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -23,7 +27,10 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
-alias ls='CLICOLOR_FORCE=1 ls -G'
+alias ls='LSCOLORS="exfxcxdxbxegedabagacad" ls -FGh'
+alias lls='/bin/ls'
+
+alias du='du -h'
 
 # count files
 alias nf='ls -1 | wc -l'
@@ -43,11 +50,17 @@ unalias gm
 #stty erase ^H
 bindkey -e
 
+# other aliases
+alias kc=kubectl
+alias dc=docker-compose
+
 # history search
 bindkey "^[[A" history-beginning-search-backward
 bindkey "^[[B" history-beginning-search-forward
 
 alias sudo='sudo '
+
+alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
 
 for f in $HOME/.zsh/*.(sh|zsh); do
   source $f
