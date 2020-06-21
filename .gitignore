@@ -21,4 +21,9 @@ pickle-email-*.html
 .DS_Store
 .dotfiles.git
 .tool-versions
+.artifactory_credentials
+.docker-sync
+node_modules
+.generators
+.rakeTasks
 
