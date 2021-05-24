@@ -1,3 +1,5 @@
+ZSH_DISABLE_COMPFIX="true"
+
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_CUSTOM=$HOME/.zsh/custom
 
@@ -53,6 +55,8 @@ bindkey -e
 # other aliases
 alias kc=kubectl
 alias dc=docker-compose
+alias tf=terraform
+alias mk=minikube
 
 # history search
 bindkey "^[[A" history-beginning-search-backward
@@ -65,4 +69,8 @@ alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
 for f in $HOME/.zsh/*.(sh|zsh); do
   source $f
 done
+
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/terraform terraform
 

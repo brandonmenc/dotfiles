@@ -9,6 +9,7 @@
 	default = current
 [user]
 	name = Brandon Menc
+	email = brandonmenc@icloud.com
 [core]
 	excludesfile = ~/.gitignore
 [credential]

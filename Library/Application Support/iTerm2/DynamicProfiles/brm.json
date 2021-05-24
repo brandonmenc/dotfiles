@@ -102,7 +102,7 @@
     "Green Component" : 0
   },
   "Use Cursor Guide" : false,
-  "Unlimited Scrollback" : false,
+  "Unlimited Scrollback" : true,
   "Custom Command" : "No",
   "HotKey Key Code" : 39,
   "Keyboard Map" : {
@@ -601,7 +601,7 @@
     "Blue Component" : "0"
   },
   "Use Cursor Guide" : false,
-  "Unlimited Scrollback" : false,
+  "Unlimited Scrollback" : true,
   "Custom Command" : "No",
   "HotKey Key Code" : 39,
   "Keyboard Map" : {
